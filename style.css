@@ -35,6 +35,11 @@ div.menuBar {
     
 }
 
+div.menuBar ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 li.gentlemansLogo {
     display: block;
     color: #000;
@@ -49,7 +54,7 @@ li.gentlemansLogo {
 
 
 header.aboutText{
-
+    padding-top: 30px;
     color: white;
     font-size: 50px;
     font-family: Poppins;
@@ -72,9 +77,9 @@ div img{
     /* transform: rotate3d(1, 0, 1, 10deg);  */
 
     position: relative;
-    box-shadow: 30px 30px 30px 0px rgb(217, 217, 241);
+    box-shadow: 0px 0px 70px 30px rgb(217, 217, 241);
     right: -55%;
-    top: -110px;
+    top: -200px;
     border-radius: 12px;
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
@@ -101,3 +106,69 @@ div img{
   50%  { transform: translateY(-50px); }
   100% { transform: translateY(0); }
 }   
+
+div.secondPage{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,13,50,1) 0%, rgba(115,9,121,1) 74%, rgba(127,37,188,1) 100%);
+    height: 700px;
+    width: 100%;
+    
+}
+
+div.secondPage ul{
+    display: inline;
+
+}
+
+div.secondPage ul li{
+
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    display: inline-flex;
+    padding-left: 22%;
+    position: relative;
+    top: 300px
+
+
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    position: relative;
+    top: 170px;
+    
+
+    
+    margin: 0 auto;
+}
+
+
+
+.flex-item {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.flex-item p {
+
+    text-align: left;
+    min-width: fit-content;
+    
+}
+
+.flex-item:hover {
+    
+    
+    background-color: #ffffff16;
+    
+}
